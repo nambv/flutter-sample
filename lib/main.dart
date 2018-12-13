@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Sample app',
       debugShowCheckedModeBanner: true,
       theme: ThemeData(primarySwatch: Colors.lightBlue, fontFamily: 'Nunito'),
-      home: LoginPage(),
+      home: HomePage(),
       routes: routes,
     );
   }
